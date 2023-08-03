@@ -4,7 +4,7 @@ class Solution {
         var num = String(x).reversed()
         
         for n in 0...num.count {
-            if num.first == "0" || num.first == "-" {
+            if num.first == "0" {
                 num.dropFirst()
             }
         }
